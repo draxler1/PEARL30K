@@ -9,9 +9,9 @@ import torch
 import clip
 
 # ------------------ Paths -------------------
-saved_model = '/home/drkam/clip_training/PEAEL_training/saved_models/clip_top3_50_VT32.pt'
-image_folder = "/projects3/datasets/par_datasets/PEARL30K/sample images/"
-caption_csv = "/projects3/datasets/par_datasets/PEARL30K/sample images/first_three_annotation.csv"  # Updated CSV with gender, age, hair
+saved_model = '../saved_models/clip_top3_50_VT32.pt'
+image_folder = "../sample images/"
+caption_csv = "first_three_annotation.csv"  # Updated CSV with gender, age, hair
 
 # ------------------ Device & Model -------------------
 device = "cuda:0" if torch.cuda.is_available() else "cpu"
@@ -28,6 +28,7 @@ ATTRIBUTE_OPTIONS = {
 }
 
 # ------------------ Functions -------------------
+# N control number of distractor prompts
 
 def generate_distractors(true_values, n=1):
     distractors = []
