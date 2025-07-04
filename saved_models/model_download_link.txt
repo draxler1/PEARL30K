@@ -1,0 +1,10 @@
+[Model Card]
+Name = clip_full_50_VT32.pt,
+Version = version1,
+TrainedOn = PEARL30K-TrainSet,
+Attributes = Gender,Age,Hair,
+EncoderArch = ViT-B/32,
+Epoch = 50,
+IntendedUse = sample inference only
+
+DownloadLink = https://drive.google.com/file/d/1rNEA_jjE41Kc-yWI746pHzgvFhy4riHh/view?usp=sharing
