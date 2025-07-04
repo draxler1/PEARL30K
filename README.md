@@ -1,7 +1,7 @@
-# CLIP_PEARL_30K
+# PEdestrian Attribute Recognition and Learning using 30K images_PEARL_30K
 [[Paper]](https://openaccess.thecvf.com/content/WACV2025/papers/Vijay_CLIPping_Imbalances_A_Novel_Evaluation_Baseline_and_PEARL_Dataset_for_WACV_2025_paper.pdf) [[Additional Document]](https://openaccess.thecvf.com/content/WACV2025/supplemental/Vijay_CLIPping_Imbalances_A_WACV_2025_supplemental.pdf) [[Usage Agreement]](https://github.com/draxler1/PEARL30K/blob/main/assests/PEARL%20Usage%20Agreement.pdf)
 
-Official repository for "CLIPping Imbalances: A Novel Evaluation Baseline and PEARL Dataset for Pedestrian Attribute Recognition", WACV-24"
+Official repository for "CLIPping Imbalances: A Novel Evaluation Baseline and PEARL Dataset for Pedestrian Attribute Recognition", WACV-25"
 
 ## Introduction
 
