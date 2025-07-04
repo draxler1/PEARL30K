@@ -7,6 +7,10 @@ Official repository for "CLIPping Imbalances: A Novel Evaluation Baseline and PE
 
 The PEARL dataset comprises with 30K pedestrian images, each annotated with 25 attribute categories, spanning over 146 sub-attributes. We have collected images from outdoor surveillance that reflect practical applications and challenges. We comprehensively cover nearly all critical attributes relevant to security surveillance applications, comprising aspects such as body posture, accessories, bag types, clothing styles, colors, and activities. To diversify, we have extracted images from twelve countries that covers seven distinct public locations including streets, parks, airports, stations, college campuses, beaches, and marketplaces. Additionally, we have incorporated four distinct weather conditions: sunny, night-time, rainy, and snow.
 
+![figure1](assests/Attribute_wise_dataset_sample.png)
+
+Below are attributes covered in PEARL30K:
+
 ```python
 # Attribute List:
 PEARL30K = {
@@ -16,8 +20,7 @@ PEARL30K = {
     'HColor': ['Black', 'Blonde', 'White', 'NA', 'Other', 'NO#'],
     'SLength': ['Short', 'Long', 'No Sleeve', 'NA', 'NO#'],
     'Viewpoint': ['Front', 'Back', 'Left', 'Right', 'NO#'],
-    'IsOccluded': ['No'],
-    'IsOccluded': ['Yes'],  # Note: 'Is Occluded' and 'IsOccluded' may need normalization
+    'IsOccluded': ['No', 'Yes'],
     'Activity': ['Standing', 'Walking', 'Running', 'Seating', 'Cellphoning', 'Cycling', 'Pooling', 'Talking', 'NO#'],
     'BodyPos': ['Standing', 'Seating'],
     'WhichOccluded': ['NA', 'Head-Shoulder', 'Lower-body', 'Upper-Body'],
@@ -38,3 +41,33 @@ PEARL30K = {
     'LowerColor': ['Black', 'White', 'Blue', 'Red', 'Green', 'Brown', 'Grey', 'Orange', 'Pink', 'Purple', 'Yellow', 'NA', 'Other']
 }
 ```
+
+## Sample Inference Script
+
+STEP 1: Please install below requirements:
+
+```bash
+$ pip install git+https://github.com/openai/CLIP.git
+$ pip install pillow numpy pandas
+$ pip install torch
+```
+
+STEP 2: Download mini-sample model and set appropriate paths
+
+```python
+saved_model = '../saved_models/clip_top3_50_VT32.pt'
+image_folder = "../sample images/"
+caption_csv = "first_three_annotation.csv"
+```
+
+STEP 3: Run the `inference_clip_PEARL.py` script:
+
+```bash
+$ python inference_clip_PEARL.py
+```
+
+Expected Output:
+
+```python
+```
+
