@@ -1,5 +1,5 @@
 # CLIP_PEARL_30K
-[[Paper]](https://openaccess.thecvf.com/content/WACV2025/papers/Vijay_CLIPping_Imbalances_A_Novel_Evaluation_Baseline_and_PEARL_Dataset_for_WACV_2025_paper.pdf) [[Additional Document]](https://openaccess.thecvf.com/content/WACV2025/supplemental/Vijay_CLIPping_Imbalances_A_WACV_2025_supplemental.pdf)
+[[Paper]](https://openaccess.thecvf.com/content/WACV2025/papers/Vijay_CLIPping_Imbalances_A_Novel_Evaluation_Baseline_and_PEARL_Dataset_for_WACV_2025_paper.pdf) [[Additional Document]](https://openaccess.thecvf.com/content/WACV2025/supplemental/Vijay_CLIPping_Imbalances_A_WACV_2025_supplemental.pdf) [[Usage Agrrement]](https://github.com/draxler1/PEARL30K/blob/main/assests/PEARL%20Usage%20Agreement.pdf)
 
 Official repository for "CLIPping Imbalances: A Novel Evaluation Baseline and PEARL Dataset for Pedestrian Attribute Recognition", WACV-24"
 
@@ -87,3 +87,29 @@ Ground Truth Attributes:
   Hair: Long
 ```
 
+# PEARL30K Download Instructions
+
+The PEARL30K dataset is made freely available to the research community. Please download and carefully review `PEARL Usage Agreement.pdf` and send signed version on pearlauthors@gmail.com. We will process your request soon and a private link will be shared to your official email address.
+
+## Author's Disclaimer
+
+PEARL30K is designed to reflect the diversity and complexity of real-world scenarios by incorporating a broad range of visual attributes. The authors are committed to respecting all individual-specific characteristics, including but not limited to gender, ethnicity, and appearance-related traits. This dataset does not contain any personally identifiable information (PII). Only general, everyday attributes such as clothing colors, hairstyles, and similar features are included. No identity-linked data is collected, processed, or shared. We prioritize privacy, fairness, and inclusivity in all aspects of dataset creation and usage. Every effort has been made to ensure that the dataset aligns with ethical standards and supports responsible AI research.
+
+# Reference
+
+If you use our dataset or code, please cite the following paper:
+
+```
+@InProceedings{Vijay_2025_WACV,
+    author    = {Vijay, Kamalakar and Lohani, Lalit and Nayak, Kamakshya Prasad and Dogra, Debi Prosad and Choi, Heeseung and Jung, Hyungjoo and Kim, Ig-Jae},
+    title     = {CLIPping Imbalances: A Novel Evaluation Baseline and PEARL Dataset for Pedestrian Attribute Recognition},
+    booktitle = {Proceedings of the Winter Conference on Applications of Computer Vision (WACV)},
+    month     = {February},
+    year      = {2025},
+    pages     = {7102-7111}
+}
+```
+
+## Acknowledgements
+
+We thank [[OpenAI CLIP]](https://github.com/openai/CLIP/tree/main) for their well-modularized code.
