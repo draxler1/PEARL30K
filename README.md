@@ -69,5 +69,21 @@ $ python inference_clip_PEARL.py
 Expected Output:
 
 ```python
+Selected Image: Sample_76_Sunny_GER_Airport_pedestrian374.jpg
+Ground Truth Caption: A photo of a person with Gender Female, Age Young and Hair Long.
+
+Prediction Probabilities:
+A photo of a person with Gender Female, Age Young and Hair Long.: 0.9780
+A photo of a person with Gender Male, Age Old and Hair NO#.: 0.0221
+
+Predicted Attributes:
+  Gender: Female
+  Age: Young
+  Hair: Long
+
+Ground Truth Attributes:
+  Gender: Female
+  Age: Young
+  Hair: Long
 ```
 
